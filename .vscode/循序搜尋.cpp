@@ -6,12 +6,12 @@ int main(){
     for(int i=0;i<5;i++){
         cin>>score[i];
         if(score[i]==59){
-            cout<<"59分";
+            cout<<"找到59分";
             found=1;
             break;
         }
     }
     if(found==0){
-        cout<<"59級";
+        cout<<"找不到59分";
     }
 }
