@@ -10,7 +10,7 @@ int main(){
        prize[count]=rand()%49+1;
        count+=1;
        for(int i=0;i<count+1;i++){
-           if(prize[i]==prize[i-1]){
+           if(prize[i]==prize[count-1]){
                count-=1;
                break;
            }
