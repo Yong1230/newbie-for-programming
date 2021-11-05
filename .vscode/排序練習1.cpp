@@ -7,4 +7,3 @@ int main(){
     }
     sort(arr+0,arr+5);
     cout<<arr[0];
-}
